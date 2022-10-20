@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "1664209964ff530ed1": {
+      "type": "collection-list",
+      "blocks": {
+        "166420996425a888d1-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sample-collection",
+            "caption_top": "{{ block.settings.collection.metafields.custom.caption_top.value }}"
+          }
+        },
+        "e0922223-1bd7-4ffd-8e22-31369cb53a2a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sample-collection2",
+            "caption_top": "{{ block.settings.collection.metafields.custom.caption_top.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "166420996425a888d1-0",
+        "e0922223-1bd7-4ffd-8e22-31369cb53a2a"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "landscape",
+        "columns_desktop": 1,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 16,
+        "block_padding_top": 1,
+        "block_padding_bottom": 13
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "items",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "sample-collection",
+        "products_to_show": 10,
+        "columns_desktop": 2,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_price": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "1664209964ff530ed1",
+    "featured_collection"
+  ]
+}

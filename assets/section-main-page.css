@@ -1,0 +1,43 @@
+.rte {
+  font-family: serif;
+}
+.page-title {
+  margin-top: 0;
+}
+
+.main-page-title {
+  margin-bottom: 3rem;
+}
+
+
+
+
+@media screen and (max-width: 749px) {
+  .rte {
+    font-size: 1.3rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .page-width--narrow {
+    max-width: 100rem;
+  }  
+  .rte {
+    font-size: 1.4rem;
+    line-height: 4rem;
+  }
+  .main-page-title {
+    margin-bottom: 4rem;
+  }
+}
+
+.page-placeholder-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.page-placeholder {
+  width: 52.5rem;
+  height: 52.5rem;
+}

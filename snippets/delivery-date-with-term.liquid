@@ -1,0 +1,21 @@
+{%- liquid
+  assign delivery_date = delivery_date_text
+
+  assign month = delivery_date | date: '%-m'
+  assign month_en = delivery_date | date: '%B'
+  assign day_int = delivery_date | date: '%-d' | plus: 0
+  if day_int <= 10
+    assign term_str = 'products.product.delivery_date.early' | t
+  elsif day_int <=20
+    assign term_str = 'products.product.delivery_date.mid' | t
+  elsif day_int <= 31
+    assign term_str = 'products.product.delivery_date.late' | t
+  endif
+
+  if request.locale.iso_code == 'ja'
+    assign delivery_date_str = month | append: "月" | append: term_str
+  else
+    assign delivery_date_str = term_str | append: " " | append: month_en
+  endif
+-%}
+{{ delivery_date_str }}

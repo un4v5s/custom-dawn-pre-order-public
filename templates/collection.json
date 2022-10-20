@@ -1,0 +1,100 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "166484260321754c32": {
+      "type": "popup-content",
+      "blocks": {
+        "0981ed2b-138e-4bdf-a736-95d4e468f788": {
+          "type": "popup_content_inner",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "richtext_content": "<p>{{ collection.metafields.custom.about | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "0981ed2b-138e-4bdf-a736-95d4e468f788"
+      ],
+      "settings": {
+        "caption": "about collection",
+        "heading": "{{ collection.title }}",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "width": "page",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "no_border": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "166421680996fa8fe9": {
+      "type": "collapsible-content",
+      "disabled": true,
+      "blocks": {
+        "16642168099ce41644-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "icon": "none",
+            "row_content": "<p>{{ collection.metafields.custom.about | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "16642168099ce41644-0"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "width": "page",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "no_border": true,
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 20,
+        "columns_desktop": 3,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "1",
+        "padding_top": 4,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "166484260321754c32",
+    "166421680996fa8fe9",
+    "product-grid"
+  ]
+}

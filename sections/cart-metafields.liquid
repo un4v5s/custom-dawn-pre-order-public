@@ -1,0 +1,12 @@
+{%- layout none -%}
+{
+	"items":[
+	{%- for item in cart.items -%}
+		{
+			"delivery_date": "{{ item.product.metafields.custom.delivery_date }}",
+			"active_date_end": {{ item.product.metafields.custom.active_date_end | json }},
+			"preorder": {{ item.product.metafields.custom.preorder | json }},
+		}{% unless forloop.last %},{% endunless %}
+	{%- endfor -%}
+	]
+}
