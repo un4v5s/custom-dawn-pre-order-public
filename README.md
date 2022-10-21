@@ -200,8 +200,8 @@ Before using the theme, you should set [Metafields](https://help.shopify.com/ja/
 
 | Definition name   | Namespace and Key                           | Content type     |
 |-------------------|---------------------------------------------|------------------|
-| About Collection  | collection.metafields.custom.about          | Multiline text   |
-| Image Caption Top | collection.metafields.custom.caption_top    | Single line text |
+| About  | collection.metafields.custom.about          | Multiline text   |
+| Caption Top | collection.metafields.custom.caption_top    | Single line text |
 
 <p align="center">
   <img src="https://i.gyazo.com/59751df478e34980ee5afd983a39708d.png" width=80%>
