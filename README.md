@@ -36,7 +36,7 @@ If you want to use this theme in other languages, please edit it yourself based 
 
 This theme uses [line item property](https://shopify.dev/themes/architecture/templates/product#line-item-properties).
 
-In order to prevent the same variation with different estimated delivery dates from existing in the cart more than once, we have added a check when adding to the cart, so other apps that use the line item property may behave strangely.
+In order to prevent the same variation with different estimated delivery dates from existing in the cart more than once, I have added a check when adding to the cart, so other apps that use the line item property may behave strangely.
 
 Specifically, in apps that allow you to customize products with text, etc., you can add multiple variations of the same variation to the cart, but such apps will not work properly if you use this theme.
 
@@ -98,7 +98,7 @@ From the merchant side, this function is premised on linking with external syste
 > **Note**
 > There is no function to automatically add the "Pre-Order" tag to orders that include pre-order items.
 > Tagging orders requires the use of a custom app or Shopify Flow.
-> We may develop custom apps in the future, including the line item property points above.
+> I may develop custom apps in the future, including the line item property points above.
 
 ### About verifying products in the cart
 
@@ -108,7 +108,7 @@ Shopify validates inventory availability at checkout.
 
 However, in order for the sales period and estimated delivery date added in this theme to be verified on the checkout page, you will (probably) need to subscribe to the Shopify Plus plan, which gives you permission to edit the checkout.liquid file ( $2000/month at the moment).
 
-This theme was developed for Shopify's cheapest merchants, so we are validating changes in the cart.
+This theme was developed for Shopify's cheapest merchants, so I am validating changes in the cart.
 
 Specifically, all products in the cart are verified at the following times.
 
@@ -162,7 +162,7 @@ The filters are designed to be discreet and easy to use.
 
 The desktop product page uses a two-column view with images on the left and product details on the right.
 
-Product Details behaves like Sticky, but we designed it to be a scrollable section if the height of the description section exceeds the height of the screen.
+Product Details behaves like Sticky, but I designed it to be a scrollable section if the height of the description section exceeds the height of the screen.
 
 To keep the product description screen cluttered, measurement information and more detailed descriptions can be mapped to product meta fields for modal description.
 
